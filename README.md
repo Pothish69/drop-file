@@ -1,17 +1,30 @@
 # drop_file
 
-A new Flutter project.
+App for transferring files between an Android phone and a laptop over the same Wi-Fi network.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## How It Works
+ Start the server on the phone.
+ The app displays the phone's local IP address.
+ Open the IP address in a laptop browser.
+ Select a file and upload it.
+ The file is saved on the phone.
+ 'Note:' : The phone and laptop must be connected to the same Wi-Fi network.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Phone acts as a local file server
+* Access the phone from a laptop browser
+* Upload files directly to the phone
+* No laptop-side application required
+* Local network transfer
+* few resources to get you started if this is your first Flutter project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+ 
+ - Contribute themes in this 'themes' folder
+
+## Licensing
+
+ no license suzken 
