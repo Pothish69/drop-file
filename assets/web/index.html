@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Share</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>📱 Phone Share</h1>
+
+    <p class="description">
+      Send files between your devices
+    </p>
+
+    <div class="drop-area">
+
+      <div class="icon">📁</div>
+
+      <h2>Choose a file</h2>
+
+      <p>Select a file from your laptop</p>
+
+      <input type="file" id="fileInput">
+
+      <br>
+
+      <button id="uploadButton" onclick="uploadFile()">
+        Upload File
+      </button>
+
+      <p id="status"></p>
+
+    </div>
+
+  </div>
+
+  <script src="/script.js"></script>
+
+</body>
+</html>
